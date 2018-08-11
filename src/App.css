@@ -1,3 +1,19 @@
+
+html, body, #root, .App {
+  height: 100%;
+  width: 100%;
+}
+
+body, p {
+  margin: 0;
+  cursor: default;
+}
+
+div {
+  display: flex;
+  align-items: flex-start;
+}
+
 .App {
   text-align: center;
 }

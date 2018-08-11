@@ -1,0 +1,15 @@
+.simpleButton {
+    background: green;
+    height: 40px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.simpleButton p {
+    margin: 0;
+    color: white;
+    cursor: pointer;
+}

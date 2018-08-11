@@ -1,0 +1,35 @@
+.login-normalLogin {
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.normalLogin-field {
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.normalLogin-field p {
+    margin-right: 20px;
+}
+
+.normalLogin-field input {
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+    transition: box-shadow .3s ease;
+}
+
+.normalLogin-field input:focus {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}

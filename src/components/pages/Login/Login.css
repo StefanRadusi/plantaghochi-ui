@@ -1,0 +1,90 @@
+.LoginPage {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login-welcome {
+    align-items: center;
+    width: 250px;
+    justify-content: center;
+}
+
+.login-welcome p {
+    font-size: 19px;
+    width: 100px;
+}
+
+.login-welcome p span {
+    font-weight: bold;
+    color: green;
+}
+
+.login-welcome  img {
+    height: 100px;
+    margin: 20px;
+}
+
+.login-credetials {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.login-or-register {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login-or {
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.login-or p {
+    z-index: 1;
+    background: white;
+    padding: 10px;
+}
+
+.login-or-line {
+    width: 100%;
+    height: 2px;
+    background: lightgrey;
+    position: absolute;
+    top: 50%;
+}
+
+.login-normal-login-container {
+    flex-direction: column;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
+}
+
+.login-register-container {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 1s ease;
+}
+
+.hideByTranslateLeft {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.hideByTranslateRight {
+    transform: translateX(0%);
+    opacity: 0;
+}
